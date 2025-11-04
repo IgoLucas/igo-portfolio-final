@@ -1,1 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGO LUCAS - Engenheiro de Dados & Analista de BI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .icon { font-size: 24px; color: #ffc107; margin-right: 10px; }
+        .icon-small { font-size: 16px; margin-right: 10px; } 
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <h1 class="logo">IGO LUCAS</h1>
+            <nav>
+                <a href="#sobre">SOBRE</a>
+                <a href="#expertise">EXPERTISE</a>
+                <a href="#portfolio">PORTFÓLIO</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#experiencia">EXPERIÊNCIA</a>
+                <a href="#contato" class="btn btn-primary">CONTATO</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container text-center">
+            <h2 class="hero-title">IGO LUCAS</h2>
+            <p class="hero-subtitle">Engenheiro de Dados & Analista de BI</p>
+            <p class="hero-text">Soluções completas para ingestão, transformação e visualização de dados</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary btn-large">VER PORTFÓLIO</a>
+                <a href="#contato" class="btn btn-secondary btn-large">ENTRAR EM CONTATO</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section about-section">
+        <div class="container about-flex-container"> 
+            
+            <div class="about-image">
+                <img src="profile.jpg" alt="Foto de Igo Lucas" class="profile-photo"> 
+            </div>
+            
+            <div class="about-content">
+                <p class="section-tagline">QUEM SOU EU</p>
+                <h3 class="section-title">SOBRE MIM</h3>
+                <p class="about-text">
+                    Profissional com 1 ano e meio de experiência em Engenharia de Dados e Análise de BI, especializado em construir pipelines robustos e dashboards estratégicos. Combinando visão técnica com entendimento de negócios para transformar dados em insights acionáveis.
+                </p>
+                <ul class="contact-list">
+                    <li><span class="icon-small">📍</span> Sertânia, Pernambuco</li>
+                    <li><span class="icon-small">📧</span> silvaigolucas@gmail.com</li>
+                    <li><span class="icon-small">📞</span> (87) 99936-8186</li>
+                    <li><span class="icon-small">🔗</span> <a href="https://linkedin.com/in/igolucas" target="_blank">linkedin.com/in/igolucas</a></li>
+                </ul>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stat-card">
+                    <p class="stat-number">1+</p>
+                    <p class="stat-label">ANO DE EXPERIÊNCIA</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-number">6+</p>
+                    <p class="stat-label">PROJETOS CONCLUÍDOS</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-number">10+</p>
+                    <p class="stat-label">TECNOLOGIAS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="section expertise-section">
+        <div class="container text-center">
+            <p class="section-tagline">O QUE EU FAÇO</p>
+            <h3 class="section-title">MINHAS ÁREAS DE EXPERTISE</h3>
+            <p class="section-subtitle">Soluções completas para ingestão, transformação e visualização de dados</p>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="icon">📊</div> 
+                    <h4>Engenharia de Dados & ETL</h4>
+                    <p>Desenvolvimento de pipelines de dados (ETL/ELT) utilizando Python, SQL e Apache Spark para garantir a ingestão e transformação de grandes volumes de dados de alta performance.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">⚙️</div> 
+                    <h4>Modelagem Dimensional & BI</h4>
+                    <p>Criação e gestão de data warehouses (DW) e data marts, aplicando modelagem dimensional (Star Schema) para otimizar consultas e análise.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">📈</div>
+                    <h4>Dashboards & Storytelling (Power BI)</h4>
+                    <p>Desenvolvimento de dashboards dinâmicos no Power BI (ou Tableau) que traduzem dados complexos em insights acionáveis, facilitando a tomada de decisão executiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section bg-light-gray">
+        <div class="container">
+            <p class="section-tagline">TRABALHOS SELECIONADOS</p>
+            <h3 class="section-title">PORTFÓLIO</h3>
+            <p class="section-subtitle">Projetos práticos em Engenharia de Dados e Cloud Business Intelligence</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active">TODOS</button>
+                <button class="filter-btn">CLOUD DATA ENGINEERING</button>
+                <button class="filter-btn">BUSINESS INTELLIGENCE</button>
+                <button class="filter-btn">ETL DATA PROCESSING</button>
+                <button class="filter-btn">DATA ORCHESTRATION</button>
+                <button class="filter-btn">DATA WAREHOUSE</button>
+                <button class="filter-btn">DATA ANALYSIS</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <h4>CLOUD DATA ENGINEERING</h4>
+                    <h5>Pipeline de ETL em Azure Data Factory</h5>
+                    <p>Desenvolvimento de pipeline completo para ingestão de dados de múltiplas fontes, processamento em camadas Bronze/Silver/Gold e disponibilização para análise.</p>
+                    <div class="tech-tags">
+                        <span>Azure Data Factory</span><span>Databricks</span><span>Python</span><span>SQL</span>
+                    </div>
+                    <ul class="result-list">
+                        <li>Redução de 40% no tempo de processamento</li>
+                        <li>Automação de processos manuais</li>
+                        <li>Implementação de data quality checks</li>
+                    </ul>
+                </div>
+
+                <div class="portfolio-card">
+                    <h4>BUSINESS INTELLIGENCE</h4>
+                    <h5>Dashboard Executivo de Vendas</h5>
+                    <p>Criação de dashboard interativo no Power BI para acompanhamento de KPIs de vendas, com drill-down por região, produto e período.</p>
+                    <div class="tech-tags">
+                        <span>Power BI</span><span>DAX</span><span>SQL Server</span><span>Excel</span>
+                    </div>
+                    <ul class="result-list">
+                        <li>Visualização de métricas em tempo real</li>
+                        <li>Redução de 50% no tempo de análise gerencial</li>
+                        <li>Integração com múltiplas fontes de dados</li>
+                    </ul>
+                </div>
+
+                <div class="portfolio-card">
+                    <h4>ETL DATA PROCESSING</h4>
+                    <h5>Data Lake com Apache Spark</h5>
+                    <p>Implementação de data lake estruturado em camadas utilizando Apache Spark no Databricks para processamento distribuído de grandes volumes.</p>
+                    <div class="tech-tags">
+                        <span>Apache Spark</span><span>Databricks</span><span>PySpark</span><span>Azure Blob Storage</span>
+                    </div>
+                    <ul class="result-list">
+                        <li>Processamento de +100GB de dados diários</li>
+                        <li>Arquitetura escalável e resiliente</li>
+                        <li>Versionamento de notebooks e pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container text-center">
+            <p class="section-tagline">TECNOLOGIAS</p>
+            <h3 class="section-title">HARD SKILLS & PLATAFORMAS</h3>
+            <p class="section-subtitle">Ferramentas e tecnologias essenciais para Engenharia de Dados e BI</p>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <h5>LINGUAGENS E FERRAMENTAS</h5>
+                    <div class="skill-tags-group">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Numpy</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Queries complexas</span>
+                        <span class="skill-tag">Otimização</span>
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">GIT</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h5>CLOUD E PLATAFORMAS</h5>
+                    <div class="skill-tags-group">
+                        <span class="skill-tag">Azure Data Factory</span>
+                        <span class="skill-tag">Azure Blob Storage</span>
+                        <span class="skill-tag">Databricks</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h5>BI E MODELAGEM DE DADOS</h5>
+                    <div class="skill-tags-group">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">DAX</span>
+                        <span class="skill-tag">Power Query</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Dashboards</span>
+                        <span class="skill-tag">Análise avançada</span>
+                        <span class="skill-tag">Modelagem Dimensional</span>
+                        <span class="skill-tag">Star Schema</span>
+                        <span class="skill-tag">Snowflake/Tabela Schema</span>
+                        <span class="skill-tag">Data Warehouse</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="section experience-section bg-light-gray">
+        <div class="container">
+            <p class="section-tagline">MINHA TRAJETÓRIA</p>
+            <h3 class="section-title">EXPERIÊNCIA & FORMAÇÃO</h3>
+            <div class="experience-grid">
+                <div class="timeline-area">
+                    <h4>EXPERIÊNCIA PROFISSIONAL</h4>
+                    
+                    <div class="timeline-item">
+                        <span class="timeline-date">NOV 2024 - PRESENTE</span>
+                        <h5 class="timeline-title">Mentorando - Engenharia de Dados</h5>
+                        <p class="timeline-company">SCDA</p>
+                        <ul class="timeline-tasks">
+                            <li>Mentoria profissional e soluções em dados e IA.</li>
+                            <li>Manipulação de notebooks no Databricks para versionamento de projetos.</li>
+                            <li>Criação de pipelines de dados usando Apache Spark para transformações em larga escala.</li>
+                            <li>Queries SQL para atender requisitos de negócio.</li>
+                            <li>Aplicação de boas práticas em pipelines de ingestão e integração de dados.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <span class="timeline-date">JUN 2023 - JUN 2024</span>
+                        <h5 class="timeline-title">Analista de Dados Administrativo</h5>
+                        <p class="timeline-company">Carpen Phi / Microempresa</p>
+                        <ul class="timeline-tasks">
+                            <li>Desenvolvimento de relatórios e dashboards em Excel.</li>
+                            <li>Modelagem e tratamento de dados para apoio à gestão.</li>
+                            <li>Controle financeiro e operacional baseado em métricas.</li>
+                            <li>Otimização de processos administrativos através de análise de dados.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="education-area">
+                    <h4>FORMAÇÃO ACADÊMICA</h4>
+                    
+                    <div class="education-item">
+                        <span class="education-date">AGO 2024 - JAN 2026 (Em andamento)</span>
+                        <h5 class="education-title">Pós-graduação em Data Science</h5>
+                        <p class="education-institution">UNINASSELVI</p>
+                    </div>
+
+                    <div class="education-item">
+                        <span class="education-date">MAR 2020 - DEZ 2023 (Concluído)</span>
+                        <h5 class="education-title">Graduação em Publicidade e Propaganda</h5>
+                        <p class="education-institution">UNINASSELVI</p>
+                    </div>
+
+                    <h4>CERTIFICAÇÕES</h4>
+                    <div class="certification-item">
+                        <span class="certification-date">2024</span>
+                        <h5 class="certification-title">AZ-900: Microsoft Azure Fundamentals</h5>
+                        <p class="certification-institution">Microsoft</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+        <div class="container text-center">
+            <p class="section-tagline">FALE COMIGO</p>
+            <h3 class="section-title">CONTATO</h3>
+            <div class="contact-form-area">
+                <a href="mailto:silvaigolucas@gmail.com" class="btn btn-primary btn-contact-large">ENVIAR MENSAGEM</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h4 class="logo">IGO LUCAS</h4>
+                <p>Engenheiro de Dados & Analista de BI</p>
+            </div>
+            
+            <div class="footer-nav">
+                <h4>NAVEGAÇÃO</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="mailto:silvaigolucas@gmail.com">Contato</a></li> 
+
+</ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>CONECTE-SE</h4>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/igolucas" target="_blank" aria-label="LinkedIn">🔗</a>
+                    <a href="mailto:silvaigolucas@gmail.com" aria-label="Email">📧</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Igo Lucas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
 
